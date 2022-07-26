@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+//import background from './Components/background.jpg'
 import './App.css';
 import Header from "./Components/Header"
 import Navbar from './Components/Navbar';
@@ -11,6 +12,7 @@ function App() {
   return (
     <BrowserRouter>
     <div className="App">
+    {/* <img id="main-back" src={background} alt="trees"/> */}
      <Header />
      <Navbar />
      <Routes>

@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-image: url("/src/assets/background.jpg");
+}
 
+.header {
+  font-size: 26px;
+}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -21,6 +28,7 @@
   border: 1px solid transparent;
   padding: 6px 12px;
   font-size: 25px;
+  text-decoration: none;
   border-radius: .25rem;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   
@@ -43,6 +51,8 @@
   font-size: 16px;
   border-radius: .25rem;
   color:white;
+  text-decoration: none;
+
 }
 
 .home {
@@ -86,7 +96,9 @@
 .box { 
   margin: 20px; 
   align-items: center;
-  border: 3px solid black
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 .box1 { background-color: teal; }
 .box2 { background-color: teal; }
@@ -97,5 +109,5 @@
   border: 1px solid #ddd;
   border-radius: 4px;
  
-  width: 450px;
+  width: 80%;
 }
