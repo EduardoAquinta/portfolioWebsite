@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="my-projects">
         <h2>My Projects</h2>        
         <div className="projects">
-  <div className="box box1"><img src={arcade} alt="arcade classic"/><div>Space Guardians</div></div>
+  <div className="box box1"><img src={arcade} alt="arcade classic"/><div>Space Guardians (Aquinta Mix)</div></div>
   <div className="box box2"><img src={frontend} alt="front-end"/><div>Front End</div></div>
   <div className="box box3"><img src={backend} alt="back-end"/><div>Back End</div></div>
   <div className="box box4"><img src={final} alt="arcade classic"/><div>Northcoders Final Project</div></div>
