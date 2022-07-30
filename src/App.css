@@ -12,6 +12,8 @@ body {
 
 .header {
   font-size: 26px;
+  text-align: right;
+
 }
 
 .navbar {
@@ -46,7 +48,7 @@ body {
 }
 
 .menu {
-  display:none;
+  display:none; 
 }
 
 .menu-line {
@@ -56,35 +58,9 @@ body {
   margin-bottom: 4px;
 }
 
-@media all and (max-width: 640px) {
-  .navbar {
-    flex-direction: column;
-    position: relative;
-  }
-  .menu {
-    display:block;
-    position: absolute;
-    right: 15px;
-    top: 15px;
-  }
-
-  .navlist {
-    list-style-type: none;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-  }
-
-}
-
-
 
 .home {
   text-align: center;
-}
-
-.header {
-  text-align: right;
 }
 
 #page-wrap {
@@ -137,12 +113,39 @@ body {
 }
 
 /* Small Screens max width 640px */
-@media screen and (max-width: 640px) {
-
-
- .header {
-   font-size: 50px;
+@media all and (max-width: 640px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
   }
+  .menu {
+    display:block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+.navigation{
+  display:none;
+}
+  .navigation.expanded {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .navlist {
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #page-wrap {
+    width: auto;
+    margin: 0 auto;
+  }
+
 
   .skillsGrid{
     display: grid;
@@ -164,7 +167,7 @@ body {
   align-items: center;
 }
 h2 {
-  font-size:400%
+  font-size:200%
 }
 .projects {
   font-size: 300%;
