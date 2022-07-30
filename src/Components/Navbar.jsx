@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import rune from '../assets/rune.png';
+import Runebutton from './RuneButton';
 
 const Navbar = () => {
   const [burgerOpen, setBurgerOpen] = useState(false);
@@ -14,14 +14,16 @@ const Navbar = () => {
       navlist:{
       display: burgerOpen ? 'inline-block' : 'none'
       }}
+
+    
     
 
   return (
     <div className="navbar">
-      <div>
-        <img className="icon" src={rune} alt="rune" />
-      </div>
-      <div className={burgerOpen ? "navigation" : "navigation expanded"}>
+      
+        <Runebutton href="https://archive.org/details/bucket-airlines" />
+      
+      <div className={burgerOpen ? "navigation expanded" : "navigation"}>
       <li className="navlist" id="navilist">
         <Link to="/">Home</Link>
       </li>
