@@ -4,7 +4,7 @@ import Phaser from "../assets/Phaser.png"
 function Skills() {
     return (
         <div className="skills">
-                <h2>These are some of the technologies I have experience with...</h2>
+                <h2>Some of the technologies I have experience with include -</h2>
             <div className="skillsGrid">
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" alt="The logo icon for react" title="React"/>
                 <Skill source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" alt="The logo icon for HTML 5" title="HTML 5"/>
@@ -15,7 +15,7 @@ function Skills() {
                 <Skill source={Phaser} alt="The logo icon for Phaser" title="Phaser"/>
                 <Skill source="https://upload.wikimedia.org/wikipedia/commons/1/1d/Cubase_logo.svg" alt="The logo icon for Cubase" title="Cubase"/>
             </div>
-            <p>I also have extensive experience as an IT engineer, able to configure and run Linux/Windows, and MacOS systems. </p>            
+            <p className='extra'>I also have extensive experience as an IT engineer, able to configure and run Linux/Windows, and MacOS systems. </p>            
         </div>
     )
 }

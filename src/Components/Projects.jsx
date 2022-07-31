@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="projects">
         <div className="box box1">
           <img src={arcade} alt="arcade classic" />
-          <div>
+          <div className='project-text'>
             Space Guardians (Aquinta Mix)          </div>
 
             <p>
@@ -24,9 +24,9 @@ const Projects = () => {
         </div>
         <div className="box box2">
           <img src={frontend} alt="front-end" />
-          <div>Front End</div>
+          <div className='project-text'>Front End</div>
           <p>
-            <ProjectButton href="https://edenv2.netlify.app/reviews" title="live app"/>
+            <ProjectButton href="https://edenv2.netlify.app" title="live app"/>
             <ProjectButton
               href="https://github.com/EduardoAquinta/nc-games"
               title="source code"
@@ -35,7 +35,7 @@ const Projects = () => {
         </div>
         <div className="box box3">
           <img src={backend} alt="back-end" />
-          <div>Back End</div>
+          <div className='project-text'>Back End</div>
           <p>
             <ProjectButton href="https://edenv1.herokuapp.com/api" title="live app" />
             <ProjectButton href="https://github.com/EduardoAquinta/backendAppV1" title="source code"/>
@@ -43,9 +43,9 @@ const Projects = () => {
         </div>
         <div className="box box4">
           <img src={final} alt="arcade classic" />
-          <div>Northcoders Final Project</div>
+          <div className='project-text'>Northcoders Final Project</div>
           <p>
-            <ProjectButton href="" title="live app" />
+            <ProjectButton href="https://spaceguardians-d5924.web.app/" title="live app" />
             <ProjectButton href="https://github.com/EduardoAquinta/spaceguardians" title="source code"/>
           </p>
         </div>
