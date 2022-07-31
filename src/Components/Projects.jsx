@@ -11,21 +11,43 @@ const Projects = () => {
       <div className="projects">
         <div className="box box1">
           <img src={arcade} alt="arcade classic" />
-          <div>Space Guardians (Aquinta Mix)
-            <ProjectButton href="https://github.com/EduardoAquinta/SpaceGuardiansAquintaMix" title="source code" />
-          </div>
+          <div>
+            Space Guardians (Aquinta Mix)          </div>
+
+            <p>
+              <ProjectButton href="" title="live app" />
+              <ProjectButton
+                href="https://github.com/EduardoAquinta/SpaceGuardiansAquintaMix"
+                title="source code"
+              />
+            </p>
         </div>
         <div className="box box2">
           <img src={frontend} alt="front-end" />
           <div>Front End</div>
+          <p>
+            <ProjectButton href="https://edenv2.netlify.app/reviews" title="live app"/>
+            <ProjectButton
+              href="https://github.com/EduardoAquinta/nc-games"
+              title="source code"
+            />
+          </p>
         </div>
         <div className="box box3">
           <img src={backend} alt="back-end" />
           <div>Back End</div>
+          <p>
+            <ProjectButton href="https://edenv1.herokuapp.com/api" title="live app" />
+            <ProjectButton href="https://github.com/EduardoAquinta/backendAppV1" title="source code"/>
+          </p>
         </div>
         <div className="box box4">
           <img src={final} alt="arcade classic" />
           <div>Northcoders Final Project</div>
+          <p>
+            <ProjectButton href="" title="live app" />
+            <ProjectButton href="https://github.com/EduardoAquinta/spaceguardians" title="source code"/>
+          </p>
         </div>
       </div>
     </div>
