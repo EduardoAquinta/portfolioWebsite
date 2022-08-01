@@ -22,7 +22,7 @@ You can create a verison of my website by simply using the code and components t
 
 ## Contributing 
 
-As this is a personal website I won't imagine looking at code changes to much from external sources. However, if you have any suggestions I am more than happy to discuss them
+As this is a personal website I won't imagine looking at code changes too much from external sources. However, if you have any suggestions I am more than happy to discuss them
 
 ## Licence
 
