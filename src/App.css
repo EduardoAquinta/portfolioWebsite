@@ -301,7 +301,9 @@ h2 {
   flex-direction: row;
   max-width: 100%;
 }
-
+.projects-title{
+  font-size: 25px;
+}
 .box { 
   margin: 20px; 
   align-items: center;
