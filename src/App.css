@@ -3,6 +3,7 @@
   src: url('./assets/Moon.otf') format('opentype');
 }
 
+/* the main settings for the website */
 .App {
   text-align: center;
   font-family: 'Moon';
@@ -12,17 +13,20 @@ body {
   background-image: url('/src/assets/background.jpg');
 }
 
+/* settings for the text displayed in a few components */
 .about-me {
   font-size: large;
   margin-left: 15%;
   margin-right: 15%;
   text-decoration: none;
+  text-align: left;
   color: initial;
   border: 2px black solid;
   border-radius: 10px;
   background-color: aliceblue;
   padding: 5px;
 }
+
 
 .extra {
   font-size: large;
@@ -41,6 +45,8 @@ body {
   text-align: right;
 }
 
+
+/* the navbar settings */
 .navigation {
   color: black;
   display: flex;
@@ -67,11 +73,18 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+/* settings for the easter egg icon */
 .icon {
   height: 40px;
   padding: 3px;
 }
 
+.rune-button {
+  height: 40px;
+  align-content: left;
+}
+
+/* settings for the burger menu */
 .menu {
   display: none;
 }
@@ -92,16 +105,8 @@ body {
   margin: 0 auto;
 }
 
-.about-me {
-  text-align: left;
-  text-decoration: none;
-  color: initial;
-  border: 2px black solid;
-  border-radius: 10px;
-  background-color: aliceblue;
-  padding: 5px;
-}
 
+/* settings for the projects page */
 .projects {
   min-height: 50px;
   display: flex;
@@ -181,6 +186,7 @@ a.project-button:hover {
   transition: all 0.3s ease-in-out;
 }
 
+/* settings for the skills page */
 .skillsGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -204,10 +210,7 @@ a.project-button:hover {
   align-items: center;
 }
 
-.rune-button {
-  height: 40px;
-  align-content: left;
-}
+
 
 /* Small Screens max width 640px */
 @media all and (max-width: 640px) {

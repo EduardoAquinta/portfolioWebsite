@@ -4,7 +4,7 @@ This project was created by myself in 2022 as my software developers portfolio, 
 
 ## Installation
 
-If you want to emulate the website you are welcome to do so, you just need to install the follwoing packages.
+If you want to emulate the website you are welcome to do so, you just need to install the following packages.
 
 ### React
 
