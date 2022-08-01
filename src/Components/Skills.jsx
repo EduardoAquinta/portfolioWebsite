@@ -1,6 +1,7 @@
 import Skill from './Skill'
 import Phaser from "../assets/Phaser.png"
 
+//Skills page content
 function Skills() {
     return (
         <div className="skills">

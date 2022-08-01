@@ -1,4 +1,6 @@
 const Home = () => {
+
+    //text for the Home page
     return (
         <div className="home">
             <h2>Software Engineer in the making</h2>

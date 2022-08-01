@@ -4,6 +4,8 @@ import backend from '../assets/backend.png';
 import final from '../assets/final.png';
 import ProjectButton from './ProjectButton';
 
+
+//Main project page creation, incluing seperate cards/boxes for each project
 const Projects = () => {
   return (
     <div className="my-projects">

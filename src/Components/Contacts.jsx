@@ -1,5 +1,6 @@
 import ContactForm from "./ContactForm";
 
+//contact me page content
 const Contacts = () => {
     return (
         <div className="contacts">

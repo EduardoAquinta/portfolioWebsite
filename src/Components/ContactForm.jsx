@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 
+//herotofu weblink address for contact form
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/ff332da0-10e6-11ed-a9ac-1bde1534b8d2"; 
 
+
+//hook for submitting the contact form
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
@@ -10,6 +13,8 @@ const ContactForm = () => {
     }, 100);
   };
 
+
+  //if submitted is true, display thank you
   if (submitted) {
     return (
       <>
@@ -19,6 +24,7 @@ const ContactForm = () => {
     );
   }
 
+  //contact form creation
   return (
     <form
       action={FORM_ENDPOINT}

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Runebutton from './RuneButton';
 
+//create hook for opening/closing mobile menu
 const Navbar = () => {
   const [burgerOpen, setBurgerOpen] = useState(false);
 
@@ -17,7 +18,7 @@ const Navbar = () => {
 
     
     
-
+//create navbar for desktop and mobile versions
   return (
     <div className="navbar">
       
