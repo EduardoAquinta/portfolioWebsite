@@ -15,11 +15,11 @@ const Projects = () => {
           <img src={arcade} alt="arcade classic" />
           <div className='project-text'>
             <strong>Space Guardians (Aquinta Mix)</strong>
-            <div>A version of Space Guardians, taken out of the React frontend,  that has a local high score table.</div>
+            <div>A version of Space Guardians, taken out of the React frontend from the NC final project. It uses a local high score table via a localStorage solution.</div>
             </div>
 
             <p>
-              <ProjectButton href="" title="live app" />
+              <ProjectButton href="https://spaceguardians.netlify.app/" title="live app" />
               <ProjectButton
                 href="https://github.com/EduardoAquinta/SpaceGuardiansAquintaMix"
                 title="source code"
@@ -28,7 +28,7 @@ const Projects = () => {
         </div>
         <div className="box box2">
           <img src={frontend} alt="front-end" />
-          <div className='project-text'><strong>Front End</strong><div>My Front-end project for Northcoders, using React, HTML, and CSS.</div></div>
+          <div className='project-text'><strong>Front End</strong><div>My Front-end project for Northcoders, using React, HTML, and CSS. This was my coding of a website, and although admittingly garish, it is very functional and I am proud of it!</div></div>
           <p>
             <ProjectButton href="https://edenv2.netlify.app" title="live app"/>
             <ProjectButton
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
         <div className="box box3">
           <img src={backend} alt="back-end" />
-          <div className='project-text'><strong>Back End</strong><div>My Back-end project for Northcoders, using JS, Node, Express, Axios, and postGreSQL.</div></div>
+          <div className='project-text'><strong>Back End</strong><div>My Back-end project for Northcoders, using JS, Node, Express, Axios, and postgreSQL. This was my first ever hosted app, and it delivers! (pun intended)</div></div>
           <p>
             <ProjectButton href="https://edenv1.herokuapp.com/api" title="live app" />
             <ProjectButton href="https://github.com/EduardoAquinta/backendAppV1" title="source code"/>
