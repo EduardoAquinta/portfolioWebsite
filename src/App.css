@@ -449,8 +449,9 @@ input {
   outline: none;
   color: black;
 
-  border: solid 1px black;
+  border: solid 3px black;
   border-bottom: none;
+  border-radius: 10px;
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -477,7 +478,9 @@ textarea {
   font-family: 'Moon', sans-serif;
   font-size: 0.975em;
 
-  border: solid 1px black;
+  border: solid 3px black;
+  border-radius: 10px;
+  border-bottom: none;
 
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -500,7 +503,9 @@ textarea:hover {
   color: black;
   outline: none;
   cursor: pointer;
-  border: solid 1px black;
+  border: solid 3px black;
+  border-radius: 10px;
+
   /* border-top: none; */
 }
 
